@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>De Vijgstudio</title>
+  
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
+
+  
+  
+</head>
+<body>
+  
+  
+<section class="main-menu">
+  
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col" id="col-blue">WORKS
+        <div id="works">
+          <p><a href="http://tiberiomar.com/" target="_blank" id="web1">marco tiberio</a></p>
+            <div id="subtitle1">website for marco tiberio, an art director based in amsterdam, futured on brutalist websites</div>
+          <p><a href="http://www.desblocs.be/" target="_blank" id="web2">des blocs festival</a></p>
+            <div id="subtitle2">website for des blocs festival, a multidisciplinary art festival in brussels</div>
+          <p><a href="http://defrostudio.eu/" target="_blank" id="web3">defrost studio</a></p>
+            <div id="subtitle3">website for defrost studio, a creative studio and publisher based in brussels</div>
+          <p><a href="https://hananelouardani.com/" target="_blank" id="web4">hanane el ouardani</a></p>
+            <div id="subtitle4">website for hanane el ouardani, a photographer based in amsterdam</div>
+          <p><a href="https://www.behance.net/gallery/70164717/BRAND-IDENTITY-AND-WEBSITE-FOR-ART-SPACE-PALAZZO-RASPON" target="_blank" id="web5">'palazzo rasponi 2' art space</a></p>
+            <div id="subtitle5">website for art space and gallery based in ravenna, italy (now offline)</div>
+          <p id="comingsoon">- coming soon -</p>
+            <div id="subtitle-comingsoon">website for art director maria ghetti</div>
+        </div>
+      </div>
+      <div class="col" id="col-white">ABOUT
+        <div id="about">
+          <p>De Vijgstudio is a newborn creative web design studio. Whatever that means. The studio combines classic editorial and design knowledge with digital media and creative coding.
+          <br>
+The studio designs and makes websites, campaigns and screen-based projects for clients ranging from the creative and academic domain to the commercial sector.</p>
+          <p><a href="mailto:kipdevijg@gmail.com" target="_blank">✉</a></p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+<script>
+
+$("#col-blue").hover( function() { $("#works").toggle(); } );
+  
+$("#col-white").hover( function() { $("#about").toggle(); } );
+
+$("#web1").hover(function() { $("#subtitle1").toggle(); } );
+$("#web2").hover(function() { $("#subtitle2").toggle(); } );
+$("#web3").hover(function() { $("#subtitle3").toggle(); } );
+$("#web4").hover(function() { $("#subtitle4").toggle(); } );
+$("#web5").hover(function() { $("#subtitle5").toggle(); } );
+$("#comingsoon").hover(function() { $("#subtitle-comingsoon").toggle(); } );
+  
+  
+
+
+
+</script>
+  
+</body>
+</html>
