@@ -1,2 +1,2 @@
 # website
-Devijgs Studio Template
+Devijg Studio Template
